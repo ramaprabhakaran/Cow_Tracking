@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/supportMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="spartons.com.frisbeeGo.fragments.MapFragment" />
+
+
+
+    <TextView
+        android:id="@+id/totalOnlineDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/total_online_drivers"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/back_enter" />
+
+    <Button
+        android:id="@+id/btnSensorValues"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_alignBaseline="@id/btnBack"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Sensor_text"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/warningIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/totalOnlineDrivers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-37dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/warning_icon_description"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/ic_warning" />
+
+
+</RelativeLayout>

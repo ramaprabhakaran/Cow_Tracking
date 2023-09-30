@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CRL Cow Tracking</string>
+    <string name="total_online_drivers">Total Cows: </string>
+    <string name="need_location">Enable GPS Service</string>
+    <string name="btn_enter">ENTER</string>
+    <string name="warning_icon_description">warning icon</string>
+    <string name="username_text">CRL Passenger</string>
+    <string name="Sensor_text">Sensor Values</string>
+
+
+    <string name="back_enter">BACK</string>
+    <string name="location_content">This app wants to change your device settings use GPS, Wi-Fi and cell networks for your location</string>
+</resources>

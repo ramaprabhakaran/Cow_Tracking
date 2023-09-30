@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1001663054512",
+    "firebase_url": "https://test-cow-c1f60-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "test-cow-c1f60",
+    "storage_bucket": "test-cow-c1f60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001663054512:android:65ad7b84be14edfbb23175",
+        "android_client_info": {
+          "package_name": "com.osepoo.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001663054512-tnd5tgf39lk5kaj1h99k82qhaevm8emk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPJenjj26TUf4OXIS5r64wo1VJU_fZ8kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001663054512-tnd5tgf39lk5kaj1h99k82qhaevm8emk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001663054512:android:546b3aa949874101b23175",
+        "android_client_info": {
+          "package_name": "com.osepoo.passengerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001663054512-tnd5tgf39lk5kaj1h99k82qhaevm8emk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPJenjj26TUf4OXIS5r64wo1VJU_fZ8kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001663054512-tnd5tgf39lk5kaj1h99k82qhaevm8emk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
