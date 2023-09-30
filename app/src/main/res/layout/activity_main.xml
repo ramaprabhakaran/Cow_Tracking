@@ -31,17 +31,17 @@
         android:textSize="15sp" />
 
 
-
     <Button
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="16dp"
         android:layout_marginEnd="50dp"
-        android:textColor="#FFFFFF"
-        android:text="@string/back_enter" />
+        android:layout_marginBottom="16dp"
+        android:text="@string/back_enter"
+        android:textColor="#"
+        app:strokeColor="#E10D0D" />
 
     <Button
         android:id="@+id/btnSensorValues"
@@ -53,7 +53,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="16dp"
         android:text="@string/Sensor_text"
-        android:textColor="#FFFFFF" />
+        android:textColor="#" />
 
     <ImageView
         android:id="@+id/warningIcon"
